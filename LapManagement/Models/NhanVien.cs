@@ -13,5 +13,7 @@ namespace LapManagement.Models
         public string? MaCV { get; set; }
         public string? SoDT { get; set; }
         public string? MaNhom { get; set; }
+        public object ChucVu { get; internal set; }
+        public object NhomQuyen { get; internal set; }
     }
 }

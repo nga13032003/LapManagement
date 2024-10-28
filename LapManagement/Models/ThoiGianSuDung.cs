@@ -9,5 +9,8 @@
         public int Thang { get; set; }
         public int Ngay { get; set; }
         public int SoGio { get; set; }
+        public object NhanVien { get; internal set; }
+        public object ThietBi { get; internal set; }
+        public object PhieuDangKi { get; internal set; }
     }
 }

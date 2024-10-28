@@ -17,5 +17,7 @@ namespace LapManagement.Models
         public DateTime? NgayBaoHanh { get; set; }
         public string? XuatXu { get; set; }
         public string? MaNCC { get; set; }
+        public object LoaiDungCu { get; internal set; }
+        public object NhaCungCap { get; internal set; }
     }
 }

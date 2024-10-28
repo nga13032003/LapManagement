@@ -8,5 +8,8 @@
         public string? MaNV { get; set; }
         public DateTime? NgayNhap { get; set; }
         public decimal TongTien { get; set; }
+        public object DungCu { get; internal set; }
+        public object ThietBi { get; internal set; }
+        public object NhanVien { get; internal set; }
     }
 }
